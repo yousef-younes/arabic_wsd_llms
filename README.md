@@ -33,6 +33,7 @@ The `mc_task` directory contains experiments where WSD is approached as a multi-
 *   `Prepare_WSD_data_for_MCT.ipynb`: This notebook is dedicated to the preparation and formatting of WSD datasets specifically for multi-choice tasks.
 *   `WSD_MC_FT.py`: A Python script for fine-tuning models on multi-choice WSD tasks.
 
+
 ## Data
 
 The `data/wsd/` directory contains JSON files (`bin_dev.json`, `bin_train.json`, `mc_dev.json`, `mc_train.json`) which are used for development and training of the WSD models in both binary and multi-choice settings. These files contain `context_id`, `context`, `word`, `sense`, `lemma_id`, `gloss_id`, and `label` (for binary tasks) or similar fields for multi-choice tasks.
@@ -81,3 +82,7 @@ To set up the environment and run the experiments, follow these general steps:
     from huggingface_hub import login
     login(token="YOUR_HF_TOKEN") # Replace YOUR_HF_TOKEN with your actual token
     ```
+
+## References
+
+[1] KSAA-CAD: Contemporary Arabic Reverse Dictionary and Word Sense Disambiguation at ArabicNLP 2024. [https://github.com/ksaa-nlp/KSAA-CAD](https://github.com/ksaa-nlp/KSAA-CAD)
