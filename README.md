@@ -53,9 +53,13 @@ The `mc_task` directory contains experiments where WSD is approached as a multi-
   "context": "جلس الطفل على البنك بجانب النهر.",
   
   "candidates": [
+  
     "مؤسسة مالية",
+    
     "ضفة النهر",
+    
     "مكان للتخزين"
+    
   ],
   
   "label": 1
