@@ -25,6 +25,19 @@ The `bin_task` directory includes experiments that frame WSD as a binary classif
 *   `WSD_Augmentation_with_Translation.ipynb`: This notebook suggests an approach to augment WSD data using translation, potentially to increase dataset size or introduce cross-lingual information.
 *   `gemma_fine_tuning_exp.py`: A Python script version of the Gemma fine-tuning experiment, suitable for command-line execution.
 
+{
+
+  "word": "بنك",
+  
+  "context": "جلس الطفل على البنك بجانب النهر.",
+  
+  "gloss": "ضفة النهر",
+  
+  "label": 1
+  
+}
+
+
 ### Multi-Choice WSD
 
 The `mc_task` directory contains experiments where WSD is approached as a multi-choice problem. The relevant files are:
@@ -33,6 +46,21 @@ The `mc_task` directory contains experiments where WSD is approached as a multi-
 *   `Prepare_WSD_data_for_MCT.ipynb`: This notebook is dedicated to the preparation and formatting of WSD datasets specifically for multi-choice tasks.
 *   `WSD_MC_FT.py`: A Python script for fine-tuning models on multi-choice WSD tasks.
 
+{
+
+  "word": "بنك",
+  
+  "context": "جلس الطفل على البنك بجانب النهر.",
+  
+  "candidates": [
+    "مؤسسة مالية",
+    "ضفة النهر",
+    "مكان للتخزين"
+  ],
+  
+  "label": 1
+  
+}
 
 ## Data
 
